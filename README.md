@@ -1,10 +1,12 @@
 # Hindsight Experience Replay
 
 This repository is the Pytorch implementation of [Hindsight Experience Replay](https://arxiv.org/abs/1707.01495)
+
 ---
 
 ## Pseudocode of the HER algorithm
 ![Pseudocode](./imgs/her_pseudo.png)
+
 ---
 
 ## Set up
@@ -57,6 +59,7 @@ The training logs of DDQN + HER.
 
 The training logs of vanilla DDQN.
 ![Training_logs_vanilla](./imgs/without_her_logs.png)
+
 ---
 ## Acknowlegement
 1. https://github.com/hemilpanchiwala/Hindsight-Experience-Replay/tree/b79402af027cbd4321e4ae93aeefccdfd1b7d675
