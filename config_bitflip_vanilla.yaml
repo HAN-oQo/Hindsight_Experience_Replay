@@ -27,3 +27,5 @@ hidden_layer: 2
 hidden_units: 128
 non_linearity: "ReLU"
 target_smoothing_coefficient: 0.005
+
+#maybe vanilla ddqn needs reward shaping
