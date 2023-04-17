@@ -73,7 +73,7 @@ The training logs of DDQN + HER with 25bits.
 The training logs of DDQN + HER with 45bits.
 ![Training_logs](./imgs/45bit_log.png)
 
-The training logs of vanilla DDQN.
+The training logs of vanilla DDQN with 10bits.
 ![Training_logs_vanilla](./imgs/without_her_logs.png)
 
 ---
