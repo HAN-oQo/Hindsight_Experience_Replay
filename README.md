@@ -35,7 +35,7 @@ python train_bitflip.py --config config_bitflip.yaml
 ```
 
 You can freely change the hyperparameter if you needed.
-I tested n_bits in [10, 25, 45] with same hyperparameters except n_bits / max_episode_steps. 
+I tested n_bits in [10, 25, 45] with same hyperparameters except n_bits / max_episode_steps / hidden_units. 
 The paper mentioned that nbits < 50 can be trained.
 
 ---

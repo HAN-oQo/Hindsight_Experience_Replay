@@ -24,6 +24,6 @@ batch_size: 1024
 buffer_size: 1000000
 start_size: 10 #100
 hidden_layer: 2
-hidden_units: 256 #128
+hidden_units: 256 #128 #I used 256 for 25bits/45bits and 128 for 10bits
 non_linearity: "ReLU"
 target_smoothing_coefficient: 0.005
