@@ -1,15 +1,15 @@
 run_name: "HER_bitflip"
 with_her: True
 env: "bitflip"
-n_bits: 10
-n_episodes: 20000
+n_bits: 25 #45 #25 #10  # nbits [10, 25, 45] are tested. You should change max_episode_steps to the same value of n_bits when you change n_bits option.
+n_episodes: 1000000 #20000
 seed: 1234
 log_video: True
 log_every: 10
 save_every: 100
-max_episode_steps: 10 #1000 #200
+max_episode_steps: 25 #45 #25 #10 
 model_basedir: "./checkpoints"
-model_ckpt: "./checkpoints/bitflip/HER_bitflip/20230416131311/best_score.ckpt"
+model_ckpt: "./checkpoints/bitflip/HER_bitflip/20230416191548/best_score_25bit.ckpt"
 
 optimizer: "Adam"
 learning_rate: 
@@ -24,6 +24,6 @@ batch_size: 1024
 buffer_size: 1000000
 start_size: 10 #100
 hidden_layer: 2
-hidden_units: 128
+hidden_units: 256 #128
 non_linearity: "ReLU"
 target_smoothing_coefficient: 0.005

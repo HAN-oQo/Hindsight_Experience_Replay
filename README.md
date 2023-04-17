@@ -35,6 +35,8 @@ python train_bitflip.py --config config_bitflip.yaml
 ```
 
 You can freely change the hyperparameter if you needed.
+I tested n_bits in [10, 25, 45] with same hyperparameters except n_bits / max_episode_steps. 
+The paper mentioned that nbits < 50 can be trained.
 
 ---
 ## Test
@@ -54,8 +56,22 @@ python render_bitflip.py --config config_bitflip.yaml
 The bitflip simulation results with 10 bits.
 ![simulation_result](./imgs/Results.png)
 
-The training logs of DDQN + HER.
+The bitflip simulation results with 25 bits.
+![simulation_result](./imgs/25bit_result.png)
+
+The bitflip simulation results with 45 bits.
+![simulation_result](./imgs/45bit_result.png)
+
+
+
+The training logs of DDQN + HER with 10bits.
 ![Training_logs](./imgs/HER_logs.png)
+
+The training logs of DDQN + HER with 25bits.
+![Training_logs](./imgs/25bit_log.png)
+
+The training logs of DDQN + HER with 45bits.
+![Training_logs](./imgs/45bit_log.png)
 
 The training logs of vanilla DDQN.
 ![Training_logs_vanilla](./imgs/without_her_logs.png)
