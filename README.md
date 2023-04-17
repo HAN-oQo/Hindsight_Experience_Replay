@@ -41,8 +41,8 @@ The paper mentioned that nbits < 50 can be trained.
 ---
 ## Test
 
-You can test with the pretrained network.
-It can be downloaded in this [link](https://drive.google.com/file/d/1K15wejlYKXAqaF9QPDislfAzrY8BdiyI/view?usp=share_link)
+You can test with the pretrained networks.
+All pretrained networks for 10bits/25bits/45bits can be downloaded in this [link](https://drive.google.com/drive/folders/1mwkvZ3ijwuyhkWacfXuGledEIZFxO0BM?usp=share_link)
 
 To see the bitflip simulation result with the network, run
 ```
