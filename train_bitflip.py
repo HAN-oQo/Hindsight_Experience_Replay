@@ -97,6 +97,7 @@ def main(config):
 
             if config["with_her"]:
                 if not done:
+                    # g_prime can be any element of goal spaces. 
                     g_prime = np.copy(s_prime)
                     for transition in transitions:
                         s, a, r, s_prime, done, g = transition
